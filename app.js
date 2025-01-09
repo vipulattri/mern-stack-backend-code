@@ -11,7 +11,7 @@ import messageRouter from "./routes/messageRouter.js";
 import skillRouter from "./routes/skillRouter.js";
 import softwareApplicationRouter from "./routes/softwareApplicationRouter.js";
 import projectRouter from "./routes/projectRouter.js";
-import ErrorHandler from "./middlewares/ErrorHandler.js"; // Corrected file name
+import ErrorHandler from "./middlewares/ErrorHander.js"; // Corrected file name
 
 const app = express();
 dotenv.config({ path: "./config/config.env" });
