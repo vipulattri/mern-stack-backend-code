@@ -28,8 +28,8 @@ app.use(
     origin: (origin, callback) => {
       // Define the allowed origins
       const allowedOrigins = [
-        "http://localhost:5173", // Portfolio URL
-        "http://localhost:5174", // Dashboard URL
+        "https://visionary-tarsier-f09c57.netlify.app/", // Portfolio URL
+        "https://deft-basbousa-687705.netlify.app/", // Dashboard URL
       ];
 
       if (allowedOrigins.includes(origin) || !origin) {
