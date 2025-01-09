@@ -28,8 +28,8 @@ app.use(
     origin: (origin, callback) => {
       // Define the allowed origins
       const allowedOrigins = [
-        "https://visionary-tarsier-f09c57.netlify.app/", // Portfolio URL
-        "https://deft-basbousa-687705.netlify.app/", // Dashboard URL
+        "https://vipul-attri.netlify.app/", // Portfolio URL
+        "https://vipul-portfolio-dashboard.netlify.app/", // Dashboard URL
       ];
 
       if (allowedOrigins.includes(origin) || !origin) {
