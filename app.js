@@ -28,8 +28,8 @@ app.use(
     origin: (origin, callback) => {
       // Define the allowed origins
       const allowedOrigins = [
-        process.env.PORTFOLIO_URL || "https://vipul-attri.netlify.app", // Portfolio URL
-        process.env.DASHBOARD_URL || "https://vipul-portfolio-dashboard.netlify.app", // Dashboard URL
+        "http://localhost:5173", // Portfolio URL
+        "http://localhost:5174", // Dashboard URL
       ];
 
       if (allowedOrigins.includes(origin) || !origin) {
