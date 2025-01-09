@@ -23,8 +23,8 @@ app.use(
     origin: (origin, callback) => {
       // Define the allowed origins
       const allowedOrigins = [
-        process.env.PORTFOLIO_URI || "http://localhost:5174",  // Portfolio URI
-        process.env.DASHBOARD_URI || "http://localhost:5173"  // Dashboard URI
+        process.env.PORTFOLIO_URL || "http://localhost:5174",  // Portfolio URI
+        process.env.DASHBOARD_URL || "http://localhost:5173"  // Dashboard URI
       ];
 
       if (allowedOrigins.includes(origin) || !origin) {
